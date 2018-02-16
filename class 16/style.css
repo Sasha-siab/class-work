@@ -1,0 +1,32 @@
+.box1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
+
+.bigger{
+    width: 200px;
+	height: 200px;
+}
+
+
+
+
+/* GAME */
+
+.box3{
+	width: 2vw;
+	height: 2vw;
+	border: 1px solid darkgrey;
+	float: left;
+}
+
+.new-div{
+	background-color: lightblue;
+}
