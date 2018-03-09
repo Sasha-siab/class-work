@@ -124,7 +124,7 @@
 let mario = Math.random() * 10;
 
 
-var x = 2;
+
 var myPromise = new Promise ( function(resolve, reject) {
 	if (mario > 4)
 	resolve ("true");
