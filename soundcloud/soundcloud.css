@@ -1,0 +1,126 @@
+/*
+#B88E8D () ROSY BROWN
+#68D89B () MEDIUM AQUAMARINE
+#84ACCE ()  LIGHT COBALT BLUE 
+#F3FFB6 ()  VERY PALE YELLOW
+
+
+#FEF9FF  (body)
+#463239  (header and footer)
+#ECE8ED (mood buttons)
+#F2545B( mood buttons font)  
+
+
+
+
+
+/*_________________________GLOBAL*/
+
+body {
+	background-color: #FEF9FF;
+	font-family: arial;
+}
+
+
+
+
+/*_________________________HEADER*/
+
+#header {
+	height: 3em;
+	display: block;
+	background-color: #463239;
+	margin-bottom: 3%;
+}
+
+h1 {
+	text-align: center;
+	color: #F3FFB6;
+	padding-top: 2%;
+	font-size: 200%;
+}
+
+/*_________________________PROGRESS BAR*/
+
+#progressBar 
+
+
+
+/*_________________________PLAYER*/
+
+#player {
+	display: block;
+	width: 80%;
+	margin: 3% auto;
+	/*padding: 3%;*/
+	text-align: center;
+}
+
+.btn {
+	/*margin: 0 3%;*/
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+/*_________________________LIST OF SONGS*/
+
+ul {
+	list-style-type:none;
+	padding-left: 0;
+}
+
+
+
+
+/*_________________________FOOTER*/
+
+#bottom {
+	display: block;
+	background-color: #463239;
+	padding-bottom: 3%;
+	padding-top: 1%;
+	display: block;
+
+}
+
+#moodSelector {
+	width: 40%;
+	margin: 0 auto;	
+	
+}
+
+.moodBtn {
+	background-color: #ECE8ED;
+	color: #F2545B;
+	border-radius: 5px;
+	border:none;
+	font-size: 50%;
+} 
+
+.moodBtn:hover {
+	background-color: #A99CAD;
+	border: none;
+}
+
+
+.btnRow {
+    text-align: center;
+}
+
+@media screen and (max-width:500px) and (min-width:600px) {
+
+.btnRow {
+    text-align: center;
+}
+s
+
+
+}
+
+@media screen and (min-width:600px) {
+	
+}
+
+/*_________________________PLAYER BUTTONS*/

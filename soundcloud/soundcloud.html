@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="soundcloud.css"></li>
+  </head>
+
+
+  <body>
+
+<!-- section on top of the page that changes color and title according to the mood selection  -->
+
+  	<div id="header">  
+  		<span id="currentMood"> 
+  			<h1>// HAPPY</h1>
+  		</span>
+  	</div>
+ 
+
+<!-- Player -->
+<div id="main">
+
+  <span id="progressBar">
+  	 CURRENTLY PLAYING SONG AND PROGRESS
+  </span>
+
+  <div id="player">
+	 <button class="btn" id="prev">Prev</button>
+	 <button class="btn" id="play">Play</button>
+	 <button class="btn" id="next">Next</button>
+     <button class="btn" id="shuffle">Shuffle</button>
+
+	
+</div>
+
+
+<!-- List of songs (4 of them) -->
+
+<div id="list">
+	<ul>
+	<li>Song example</li>
+	<li>Song example</li>
+	<li>Song example</li>
+	<li>Song example</li>
+</ul>
+
+</div>
+<!-- Footer : sections that contains all additional buttons -->
+<!-- PLEASE REMOVE THIS UGLY BLUE BORDER WITH JS ONCLICK -->
+
+<div id="bottom">
+  <div id="moodSelector" >
+  	<div class="btnRow">
+    <button class="moodBtn" id="happy" value="">Happy</button>
+    <button class="moodBtn" id="sad" value="">Sad</button>
+    <button class="moodBtn" id="motiv" value="">Motivation</button>
+	</div>
+	<div class="btnRow">
+    <button class="moodBtn" id="break" value="">Break Up</button>
+    <button class="moodBtn" id="wm" value="">World Music</button>
+    </div>
+	<div class="btnRow">
+    <button class="moodBtn" id="random" value="">Random</button>
+    <button class="moodBtn" id="reset" value="">Reset</button>
+    </div>
+   
+  </div>
+</div>
+
+  </body>
+  <footer>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.0.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./scMood.js">
+
+    </script>
+</footer>
+</html>
