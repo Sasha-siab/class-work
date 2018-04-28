@@ -1,0 +1,79 @@
+
+fieldset {
+    border:  none;
+}
+
+
+fieldset#last {
+    border-bottom:  1px dashed black;
+}
+
+body {
+    font-family:  sans-serif;
+    letter-spacing:  1px;
+    text-transform: capitalize;
+    background-color:  lightsteelblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset#last {
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+fieldset#name {
+    font-weight: 600;
+}
+
+
+
+fieldset#name {
+    background:  #f4c6c6;
+    text-align:  center;
+    letter-spacing: 3px;
+}
+
+
+fieldset {
+    background:  lightslategray;
+}
+
+h1 {
+    letter-spacing: 4px;
+}
+
+
+div#wrapper {
+    width:  80%;
+    margin:  0 auto;
+}
+
+fieldset#name {}
+
+fieldset {
+    margin-top:  1px;
+}
+
+fieldset#last {
+    /* box-shadow: 1px 1px 0px 0px black; */
+}
+
+button {
+    margin-left:  40%;
+    margin-bottom:  25px;
+    background: pink;
+    border:  1px solid grey;
+    border-radius:  1em;
+    height:  3em;
+    font-family:  sans-serif;
+    letter-spacing:  1px;
+    font-weight: 600;
+    width: 9em;
+}

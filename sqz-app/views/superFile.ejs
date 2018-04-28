@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hats</title>
+	<link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+	<div id="wrapper">
+		 <h1>Francis' Hats Collection</h1>
+		 <hr>
+		<a href="add-hat.html"> <button>Add New Hat</button> </a>
+	 <% for (i in rows) { %>
+
+
+<fieldset id="name">
+<label>Name:</label>
+	<%= rows[i].dataValues.name %>
+</fieldset>
+
+<fieldset>
+	<label>Material: </label>
+	<%= rows[i].dataValues.material %>
+</fieldset>
+
+<fieldset>
+	<label>Heigth: </label>
+	<%= rows[i].dataValues.height %>
+</fieldset>
+
+<fieldset id="last">
+	<label>Brim: </label>
+	<%= rows[i].dataValues.brim %>
+</fieldset>
+<br><br>
+<form method="POST" action="/edit/<%= rows[i].dataValues.id %>">
+	<button>Edit</button>
+</form>
+<form method="POST" action="/delete/<%= rows[i].dataValues.id %>">
+	<button>Delete</button>
+</form>
+	
+	<%  } %>
+
+</div>
+
+
+</body>
+</html>
